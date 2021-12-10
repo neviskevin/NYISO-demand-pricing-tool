@@ -32,8 +32,3 @@ def demandZip(x, y):
         zip_ref.extractall(".")
     demand = pd.read_csv(y+x+".csv")
     print(demand.head)
-    
-
-x1 = 'palIntegrated' # or isolf
-y1 = '20201101'
-demandZip(x1, y1)
