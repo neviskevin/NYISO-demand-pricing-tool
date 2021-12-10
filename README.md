@@ -12,7 +12,7 @@ navigate to directory where you can open ipynb files, clone into repository
 
 > git clone https://github.com/neviskevin/NYISO-demand-pricing-tool.git
 
-'''
+'''python
 x1 = 'palIntegrated' # or isolf
 demandZip(x1, '20201101')
 '''
