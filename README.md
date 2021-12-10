@@ -10,7 +10,7 @@ navigate to directory where you can open ipynb files, clone into repository
 
 > git clone https://github.com/neviskevin/NYISO-demand-pricing-tool.git
 
-#demand.py
+# demand.py
 ```python
 x = 'palIntegrated' # or isolf
 y = '20201101' # this is the date string
