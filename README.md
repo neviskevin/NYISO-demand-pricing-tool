@@ -13,6 +13,7 @@ navigate to directory where you can open ipynb files, clone into repository
 > git clone https://github.com/neviskevin/NYISO-demand-pricing-tool.git
 
 ```python
-x1 = 'palIntegrated' # or isolf
-demandZip(x1, '20201101')
+x = 'palIntegrated' # or isolf
+y = '20201101' # this is the date string
+demandZip(x, y) # demand(x, y) should be used for days of current month
 ```
