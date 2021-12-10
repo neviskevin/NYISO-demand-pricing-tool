@@ -11,3 +11,8 @@ Price Forecast: http://mis.nyiso.com/public/P-2Alist.htm
 navigate to directory where you can open ipynb files, clone into repository
 
 > git clone https://github.com/neviskevin/NYISO-demand-pricing-tool.git
+
+'''
+x1 = 'palIntegrated' # or isolf
+demandZip(x1, '20201101')
+'''
