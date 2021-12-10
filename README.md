@@ -13,7 +13,7 @@ Price Forecast[^4]
 
 ### demand.py
 ```python
-x = 'palIntegrated' # or isolf
+x = 'palIntegrated' # Gives realtime. Use 'isolf' for day ahead
 y = '20201101' # this is the date string
 demandZip(x, y) # demand(x, y) should be used for days of current month
 ```
