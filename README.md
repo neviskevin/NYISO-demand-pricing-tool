@@ -1,10 +1,11 @@
 # NYISO-demand-pricing-tool
-## historical Data upload time is shown at the following links
-## forecast is made at 9:30, pricing is next day 12am to 11pm and demand is the next 5 days
+## Historical Data upload time is shown at the following links
 Demand[^1]    
 Demand Forecast[^2]  
+   -  made at 9:30 for the next 5 days
 Price[^3]   
-Price Forecast[^4]
+Price Forecast[^4]  
+   -  made at 9:30 for next day 12am to 11pm 
 
 navigate to directory where you can open ipynb files, clone into repository
 
