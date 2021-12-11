@@ -11,8 +11,9 @@ Price Forecast[^4]
 ### Clone into Repository
 > git clone https://github.com/neviskevin/NYISO-demand-pricing-tool.git
 
+# Add the following code to
 ### demand.py
-```python
+```python3
 x = 'palIntegrated' # Gives realtime. Use 'isolf' for day ahead
 y = '20201101' # this is the date string
 demandZip(x, y) # demand(x, y) should be used for days of current month
@@ -20,5 +21,13 @@ demandZip(x, y) # demand(x, y) should be used for days of current month
 
 [^1]: http://mis.nyiso.com/public/P-58Clist.htm
 [^2]: http://mis.nyiso.com/public/P-7list.htm
+
+### pricing.py
+```python3
+x = 'XXXXX' # Gives realtime. Use 'XXXXX' for day ahead
+y = '@@@@@' # this is the date string
+pricingZip(x, y) # pricing(x, y) should be used for days of current month
+```
+
 [^3]: http://mis.nyiso.com/public/P-24Alist.htm
 [^4]: http://mis.nyiso.com/public/P-2Alist.htm
